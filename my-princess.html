@@ -1,0 +1,433 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        
+        
+        <style>
+    /* Estilos para el diálogo de contraseña */
+    #password-dialog {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #password-dialog-content {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      width: 400px;
+      text-align: center;
+    }
+    #password-dialog-content h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    #password-dialog-content input[type="password"] {
+      width: 100%;
+      height: 40px;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    #password-dialog-content button {
+      width: 100%;
+      height: 40px;
+      background-color: #ff40e7;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #password-dialog-content button:hover {
+      background-color: #3e8e41;
+    }
+    /* Estilos para el contenido de la página */
+    #page-content {
+      display: none;
+    }
+  </style>
+  
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
+
+
+        <!--For Plugins external css-->
+        <link rel="stylesheet" href="assets/css/plugins.css" />
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">
+		
+        <link rel="stylesheet" href="assets/css/nexa-web-font.css" />
+        <link rel="stylesheet" href="assets/css/opensans-web-font.css" />
+
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+          <!-- Diálogo de contraseña -->
+  <div id="password-dialog">
+    <div id="password-dialog-content">
+      <h2>Are you Shanelle?</h2>
+      <p>This website is exclusive.</p>
+      <form>
+        <input type="password" id="password" placeholder="Enter the password" />
+        <button onclick="checkPassword(event)">log in</button>
+
+      </form>
+      <div id="error-message" style="color: red;"></div>
+    </div>
+  </div>
+
+        
+        
+        <div id="page-content">
+
+                
+
+        <!--Home page style-->
+        <header id="home" class="home">
+			<div class="overlay sections">
+				<div class="container">
+					
+					<div class="row">
+						<div class="wrapper">
+							<div class="col-md-6 col-md-offset-3">
+								
+								<div class="home-details text-center">
+									
+									<div class="logo">
+										<img src="assets/images/logo.png" alt="Logo Image" />
+									</div>
+										
+									<div class="home-title">
+										<h1><span>FOR</span> My Princess 🥰</h1>
+									</div>
+									
+									<div class="scroll-down">
+										<h5>low baby</h5>
+										<a href="#about"><i class="fa fa-angle-double-down"></i></a>
+									</div>
+
+								</div>
+									
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </header>
+
+        <!-- Sections -->
+        <section id="about" class="about sections">
+            <div class="container">
+
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="wrapper">
+					
+                    	<div class="col-md-6">
+                    		<div class="about-photo">
+								<img src="assets/images/she.jpeg" alt="Shanelle" />
+							</div>
+                    	</div>
+						
+						<div class="col-md-6">
+                    		<div class="heading about-content">
+								<h3>Shanelle</h3>
+								<p>You are the love of my life beautiful princess 💖 You don't leave my mind and my heart for a single moment ❤ I take you with me wherever you go and no matter what 💕 and although the distance is an impediment pays to hug us, it is not to love us 🥺 I want you to know that I will always love you and love you with all my heart, with all my strength and with all my soul. 💝 You will be my priority and my spoiled girl for all life 🤩 I will never turn my back on you and I will be for you at every moment, even in the bad ones. I will always be to support you and Mars 💗 When you feel alone remember that here, although a little far away. I will be forever for you 💞 You make me smile every day and I hope to do the same thing you do for me, all life 🥰 Edit this little page to save some things, among them. Remind you that I love you 💖</p>
+								
+								<div class="signature">
+									<img src="assets/images/singnature.png" alt="signature" />
+								</div>
+					
+					
+					<p>Next I present to the love of my life 💖 😍</p>
+					
+							</div>
+                    	</div>
+						
+						
+						
+                    </div>
+                </div>
+				
+				
+				
+            </div> <!-- /container -->       
+        </section>
+		
+		
+		<!-- Sections -->
+        <section id="portfolio" class="portfolio">
+			<div class="overlay sections">
+				<div class="container">
+				
+			
+					
+					<!-- Example row of columns -->
+					
+					<div class="row">
+						<div class="portfolio-wrapper">
+						    
+						    			<div class="portfolio-item">
+							
+								<div class="portfolio-details">
+									<a href="assets/images/shanelle/0.jpeg" class="portfolio-img"><img src="assets/images/shanelle/0.jpeg" alt="Portfolio" /></a>
+								</div>
+								
+							</div>
+						    
+						    
+							<div class="portfolio-item">
+							
+								<div class="portfolio-details">
+									<a href="assets/images/shanelle/1.jpeg" class="portfolio-img"><img src="assets/images/shanelle/1.jpeg" alt="Portfolio" /></a>
+								</div>
+								
+							</div>
+								
+										<div class="portfolio-item">
+							
+								<div class="portfolio-details">
+									<a href="assets/images/shanelle/2.jpeg" class="portfolio-img"><img src="assets/images/shanelle/2.jpeg" alt="Portfolio" /></a>
+								</div>
+								
+							</div>
+							
+										<div class="portfolio-item">
+							
+								<div class="portfolio-details">
+									<a href="assets/images/shanelle/3.jpeg" class="portfolio-img"><img src="assets/images/shanelle/3.jpeg" alt="Portfolio" /></a>
+								</div>
+								
+							</div>
+							
+										<div class="portfolio-item">
+							
+								<div class="portfolio-details">
+									<a href="assets/images/shanelle/4.jpeg" class="portfolio-img"><img src="assets/images/shanelle/4.jpeg" alt="Portfolio" /></a>
+								</div>
+								
+							</div>
+							
+										<div class="portfolio-item">
+							
+								<div class="portfolio-details">
+									<a href="assets/images/shanelle/4.jpeg" class="portfolio-img"><img src="assets/images/shanelle/5.jpeg" alt="Portfolio" /></a>
+								</div>
+								
+							</div>
+							
+										<div class="portfolio-item">
+							
+								<div class="portfolio-details">
+									<a href="assets/images/shanelle/6.jpeg" class="portfolio-img"><img src="assets/images/shanelle/6.jpeg" alt="Portfolio" /></a>
+								</div>
+								
+							</div>
+							
+										<div class="portfolio-item">
+							
+								<div class="portfolio-details">
+									<a href="assets/images/shanelle/7.jpeg" class="portfolio-img"><img src="assets/images/shanelle/7.jpeg" alt="Portfolio" /></a>
+								</div>
+								
+							</div>
+							
+										<div class="portfolio-item">
+							
+								<div class="portfolio-details">
+									<a href="assets/images/shanelle/8.jpeg" class="portfolio-img"><img src="assets/images/shanelle/8.jpeg" alt="Portfolio" /></a>
+								</div>
+								
+							</div>
+							
+										<div class="portfolio-item">
+							
+								<div class="portfolio-details">
+									<a href="assets/images/shanelle/9.jpeg" class="portfolio-img"><img src="assets/images/shanelle/9.jpeg" alt="Portfolio" /></a>
+								</div>
+								
+							</div>
+							
+									<div class="portfolio-item">
+							
+								<div class="portfolio-details">
+									<a href="assets/images/shanelle/10.png" class="portfolio-img"><img src="assets/images/shanelle/10.png" alt="Portfolio" /></a>
+								</div>
+								
+							</div>
+							
+										<div class="portfolio-item">
+							
+								<div class="portfolio-details">
+									<a href="assets/images/shanelle/11.jpeg" class="portfolio-img"><img src="assets/images/shanelle/11.jpeg" alt="Portfolio" /></a>
+								</div>
+								
+							</div>
+							
+										<div class="portfolio-item">
+							
+								<div class="portfolio-details">
+									<a href="assets/images/shanelle/12.jpeg" class="portfolio-img"><img src="assets/images/shanelle/12.jpeg" alt="Portfolio" /></a>
+								</div>
+								
+							</div>
+							
+										<div class="portfolio-item">
+							
+								<div class="portfolio-details">
+									<a href="assets/images/shanelle/13.jpeg" class="portfolio-img"><img src="assets/images/shanelle/13.jpeg" alt="Portfolio" /></a>
+								</div>
+								
+							</div>
+							
+										<div class="portfolio-item">
+							
+								<div class="portfolio-details">
+									<a href="assets/images/shanelle/14.jpeg" class="portfolio-img"><img src="assets/images/shanelle/14.jpeg" alt="Portfolio" /></a>
+								</div>
+								
+							</div>
+							
+										<div class="portfolio-item">
+							
+								<div class="portfolio-details">
+									<a href="assets/images/shanelle/15.jpeg" class="portfolio-img"><img src="assets/images/shanelle/15.jpeg" alt="Portfolio" /></a>
+								</div>
+								
+							</div>
+								
+							
+							<div class="scroll-down">
+								<h5>contact information</h5>
+								<a href="#contact"><i class="fa fa-angle-double-down"></i></a>
+							</div>
+							
+						</div>
+					</div>
+				</div> <!-- /container -->
+			</div>	
+        </section>
+		
+		<section id="contact" class="contact sections">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<div class="contact-details text-center">
+						
+							<div class="contact-category">
+								<div class="mail">
+									<h4>Mail :</h4>
+									<h2>your.heart@gmail.com</h2>
+								</div>
+							</div>
+							
+							<div class="contact-category">
+								<div class="phone">
+									<h4>Location :</h4>
+									<h5>All the time in your heart 😏</h5>
+								</div>
+							</div>
+							
+							
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+        <!--Footer-->
+        <footer id="footer" class="footer">
+            <div class="container">
+            	<div class="row">
+            		<div class="col-md-12">
+            			<div class="copyright text-center">
+            				<p>With love for Shanelle</p>
+            			</div>
+            		</div>
+            	</div>
+            </div>
+        </footer>
+        
+        </div>
+
+
+        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+        <script src="assets/js/plugins.js"></script>
+		<script src="assets/js/jquery.magnific-popup.js"></script>
+
+		 
+        <script src="assets/js/main.js"></script>
+        
+        
+  <!-- ... tu código HTML ... -->
+
+<script>
+   // Contraseña correcta (cambiar por la contraseña deseada)
+    const correctPassword = "Erick&ShanelleFOREVER";
+
+    // Mostrar diálogo de contraseña al cargar la página
+    document.getElementById("password-dialog").style.display = "flex";
+    document.getElementById("page-content").style.display = "none";
+
+    function checkPassword() {
+      const passwordInput = document.getElementById("password");
+      const password = passwordInput.value;
+      if (password === correctPassword) {
+        document.getElementById("password-dialog").style.display = "none";
+        document.getElementById("page-content").style.display = "block";
+      } else {
+        // Acceso denegado
+        document.getElementById("error-message").innerText = "Contraseña incorrecta";
+      }
+    }
+    
+    function checkPassword(event) {
+  event.preventDefault(); // Evita que se recargue la página
+  const passwordInput = document.getElementById("password");
+  const password = passwordInput.value;
+  if (password === correctPassword) {
+    document.getElementById("password-dialog").style.display = "none";
+    document.getElementById("page-content").style.display = "block";
+  } else {
+    // Acceso denegado
+    document.getElementById("error-message").innerText = "Contraseña incorrecta";
+  }
+}
+    
+</script>
+
+        
+    </body>
+</html>
